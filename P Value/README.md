@@ -14,4 +14,4 @@ Each section is supported by Python code and practical simulation.
 
 ---
 
-Created by [ChatGPT + You]
+Created by @barazan19
