@@ -1,7 +1,7 @@
 
 # 🎯 Likelihood vs Probability – Explained with Code and Visuals
 
-This repository explains the **difference between likelihood and probability** using a simple coin toss example. It also includes Python code and visualizations in a Jupyter notebook.
+This repository explains the **difference between likelihood and probability** using a simple coin toss example, introduces **log-likelihood**, and demonstrates how it is used in **logistic regression** with Python examples and visualizations.
 
 ---
 
@@ -10,31 +10,33 @@ This repository explains the **difference between likelihood and probability** u
 - What is **Likelihood**?
 - What is **Probability**?
 - How are they different?
-- Python implementation for both concepts
-- Visual illustration of **Maximum Likelihood Estimation (MLE)**
+- What is **Log-Likelihood**?
+- Logistic Regression using Log-Likelihood & Gradient Ascent
+- Python code for all concepts
+- Visual illustrations including MLE & convergence plots
 
 ---
 
 ## 📁 Files
 
-- `likelihood_vs_probability_combined.ipynb` – Complete notebook with step-by-step explanation and visuals.
-- Python code examples to compute and plot:
-  - Likelihood function and MLE
-  - Probability of a specific observation given known parameter
+- `likelihood_vs_probability_combined.ipynb`: The complete notebook
+- Visuals and code for likelihood functions, MLE, and logistic regression
 
 ---
 
-## ✅ Summary
+## 🧠 Summary Table
 
-| Concept       | What varies?        | Used for                         | Example Question |
-|---------------|----------------------|-----------------------------------|------------------|
-| Probability   | Data                 | Predicting outcomes               | “What’s the chance of 7 heads if p = 0.5?” |
-| Likelihood    | Parameter            | Estimating model parameters       | “Given 7 heads, what’s the best estimate of p?” |
+| Concept         | Varies?         | Used For                         | Example Question                                  |
+|------------------|------------------|----------------------------------|---------------------------------------------------|
+| Probability       | Data             | Predicting outcomes              | “What’s the chance of 7 heads if p = 0.5?”        |
+| Likelihood        | Parameter        | Estimating parameters            | “Given 7 heads, what’s the best estimate of p?”   |
+| Log-Likelihood    | Parameter        | Optimization-friendly estimation | “Which \( \beta \) makes data most likely?”    |
 
 ---
 
-## 📈 Visualization Example
+## 📈 Visualization Examples
 
-The likelihood function for 7 heads in 10 tosses helps us identify that the most likely value of `p` is `0.7`.
+- Likelihood Function for Binomial Distribution
+- Log-Likelihood Curve over Iterations for Logistic Regression
 
-Happy learning and exploring! 🚀
+Happy learning! 🚀
